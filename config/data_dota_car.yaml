@@ -1,0 +1,11 @@
+# Set `path` to your YOLO dataset root after conversion (see README).
+# DOTA car proxy: only `small-vehicle` → single class `car`.
+
+path: /path/to/dota_vehicle_yolo
+train: images/train
+val: images/val
+test: images/val
+
+names:
+  0: car
+nc: 1

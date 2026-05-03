@@ -1,0 +1,22 @@
+Ultralytics 8.4.46 🚀 Python-3.12.8 torch-2.9.1 CPU (Apple M1 Pro)
+Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1809.5±514.4 MB/s, size: 1702.7 KB)
+
+[K[34m[1mval: [0mScanning <path/to/dota_vehicle_yolo>/labels/val.cache... 131 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 131/131 25.0Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 11% ━─────────── 1/9 10.6s/it 3.2s<1:25
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 2/9 6.7s/it 6.8s<46.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 3/9 5.4s/it 10.5s<32.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 4/9 5.2s/it 15.3s<26.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 5/9 4.8s/it 19.3s<19.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 67% ━━━━━━━━──── 6/9 4.5s/it 23.2s<13.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 7/9 4.0s/it 26.3s<7.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 8/9 3.6s/it 29.2s<3.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 9/9 3.3s/it 29.5s
+                   all        131       5089      0.235      0.262      0.135     0.0392
+Speed: 0.6ms preprocess, 152.6ms inference, 0.0ms loss, 12.1ms postprocess per image
+Results saved to [1mruns/detect/val-3[0m
+mAP@0.5:   0.1355
+Precision: 0.2349
+Recall:    0.2619
+F1-score:  0.2477

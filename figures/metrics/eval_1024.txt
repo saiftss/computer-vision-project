@@ -1,0 +1,30 @@
+Ultralytics 8.4.46 🚀 Python-3.12.8 torch-2.9.1 CPU (Apple M1 Pro)
+Model summary (fused): 73 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 4745.7±1910.5 MB/s, size: 19155.6 KB)
+
+[K[34m[1mval: [0mScanning <path/to/dota_vehicle_yolo>/labels/val.cache... 131 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 131/131 61.1Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 1/17 5.3s/it 1.6s<1:25
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 2/17 3.0s/it 3.1s<45.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 3/17 2.3s/it 4.6s<32.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 4/17 2.1s/it 6.4s<27.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 29% ━━━╸──────── 5/17 2.0s/it 8.2s<24.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 6/17 1.9s/it 9.9s<21.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 7/17 2.1s/it 12.8s<21.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸────── 8/17 2.1s/it 14.9s<19.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 9/17 2.1s/it 17.1s<17.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% ━━━━━━━───── 10/17 2.1s/it 19.2s<14.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 11/17 2.1s/it 21.3s<12.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━──── 12/17 1.9s/it 22.9s<9.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% ━━━━━━━━━─── 13/17 1.8s/it 24.4s<7.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 14/17 1.7s/it 25.9s<5.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 15/17 1.6s/it 27.3s<3.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 16/17 1.4s/it 28.5s<1.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 17/17 1.7s/it 28.9s
+                   all        131       5089      0.316      0.342       0.21     0.0709
+Speed: 1.6ms preprocess, 103.5ms inference, 0.0ms loss, 55.7ms postprocess per image
+Results saved to [1mruns/detect/val-4[0m
+mAP@0.5:   0.2104
+Precision: 0.3157
+Recall:    0.3417
+F1-score:  0.3282
